@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>devsam portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--//font awesome-->
+</head>
+<body>
+    <header>
+        <!--<div class="logo">
+            <img src="" alt="">
+        </div>-->
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hambuger">
+            </span>
+        </button>
+        <div class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href ="#home" class = "navlink">Home</a></li>
+                <li class="nav__item"><a href ="#about" class = "navlink">About me</a></li>
+                <li class="nav__item"><a href ="#contact" class = "navlink">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, am <strong>Samuel Macharia</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">
+            Computer Science Major
+        </p>
+        <img src="sam3.jpg" alt="A picture of the master" class="intro__img">
+    </section>
+
+    <!--services-->
+    <section class="my-services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="service">
+            <h3 class="service__header">Web developer</h3>
+            <p>I have learnt to some extent what goes into the development of a full stack web with a number of hands on projects 
+                completed
+                
+            </p>
+        </div>
+        <div class="service">
+            <h3 class="service__header">Networking</h3>
+            <p>Great passsion about networking and completed Cisco CCNA certification and plan to
+            </p>
+        </div>
+        <div class="service">
+            <h3 class="service__header">IT support</h3>
+            <p>Based on my vast exposure,curiosity i have gained experiences in other related field of computing
+                
+             </p>
+        </div> <!--/service-->
+        <a href="#work" class="btn">My CV</a>
+    </section>
+    <!--About-->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I Am</h2>
+        <p class="section__subtitle section__subtitle--about">Developer & Networking based in kenya  </p>
+
+        <div class="aboutmebody">
+            <p>I am Samuel Macharia kamau, a Kenyan citizen residing at Nairobi. 
+               I promise to be fully committed and to adhere and pay attention to every aspect. </p>
+            <p>
+                I am a former computer science student and have studied data mining and analysis 
+                among others and am very computer literate 
+                am a hardworking, obedient with good interpersonal skills and can communicate fluently in English and Kiswahili. I am a result oriented, dedicated team player who can be relied upon to help company achieve its strategic mission, vision, goals and objectives. Seeking to apply my abilities in any role I am allocated. I am also readily available.
+                Looking forward t receiving a positive nod through Mobile number +254706131946 or emails address samuelkamau298@gmail.com.
+            </p>
+        </div>
+        <img src="sam.jpg" alt="A picture of the master" class="about__img">
+    </section>
+    <!--work-->
+    <footer class="footer" id="contact">
+        <a href="mailto:samuelkamau298@gmail.com" class="footer__link">samuelkamau298@gmail.com</a>
+        <div class="phone">Tel : 0706131946</div>
+        <ul class="social__link">
+            <li class="social-list__item">
+                <a  class="social-list__link"
+                 href="https://www.facebook.com">
+                 <i class="fab fa-facebook"></i>
+                 </a>
+            </li>
+            <li class="social-list__item">
+                <a  class="social-list__link" href="https://wa.me0706131946">
+                 <i class="fab fa-whatsapp"></i>
+                    </a>
+            </li>
+            <li class="social-list__item">
+                <a  class="social-list__link" onclick=" window.open('https://twitter.com/MasterKamau','_blank')">
+                    <i class="fab fa-twitter"></i>
+                    </a>
+            </li>
+            <li class="social-list__item">
+                <a  class="social-list__link" href="https://www.github.com">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+
+    </footer>
+    <script src="index.js"></script>
+    
+</body>
+</html>
